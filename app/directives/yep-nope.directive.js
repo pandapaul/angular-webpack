@@ -1,3 +1,5 @@
+'use strict';
+
 function YepNopeDirective() {
   return {
     restrict: 'E',
@@ -10,4 +12,4 @@ function YepNopeDirective() {
   }
 }
 
-angular.module('dashboard').directive('yepNope', YepNopeDirective);
+module.exports = YepNopeDirective;
